@@ -1,7 +1,16 @@
 aid: ornadyne
 name: Ornadyne
-description: Ornadyne is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ornadyne is a Los Angeles hard-tech startup building autonomous flapping-wing
+  UAVs (ornithopters) that look and fly like real birds for covert reconnaissance
+  and surveillance. Its near-silent, AI-powered, man-portable drones are engineered
+  for low acoustic and visual signatures, hour-class flight times, and natural
+  bird-like flight, contrasting with easily detected quadcopters and fixed-wing
+  aircraft. Founded by Geourg Kivijian (CEO, ex-NASA JPL and Astrolab) and Armen
+  Arakelyan (CTO, ex-SpaceX Starship), the company is a Y Combinator Spring 2026
+  company operating in the hardware, robotics, drones, aerospace, and defense space.
+  It is a hardware/defense company with a marketing website and no public developer
+  API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/ornadyne/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,44 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ornadyne.com/og-image.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Drones
+- Robotics
+- Aerospace
+- Defense
+- Hard Tech
+- UAV
+- Surveillance
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://ornadyne.com/
+- type: DomainSecurity
+  url: security/ornadyne-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
